@@ -1,5 +1,5 @@
 ## Estutura de Dados em Java e Stream
-Principais classes utilitárias de Collections e Map. Utilizando os principais métodos de cada um.
+A seguir veremos as principais classes utilitárias de Collections e Map e sua aplicabilidade através dos principais métodos de cada um.
 
 ### Pré-Requisitos
 ✔️ Java JDK 17;<br>
@@ -17,8 +17,9 @@ Abaixo como as Collections estão organizadas:
 Percebe-se que o Map não faz parte do framework de Collections mas é bastante utilizado em tratamento e estrutura de dados.
 
 #### Listas
-As listas permitem elementos duplicados e garante ordem de inserção. Também permite adicção, atualização, leitura e remoção sem regras adicionais.
-Diferença entre a ArrayList e LinkedList: 
+As listas permitem elementos duplicados e garante ordem de inserção. Também permite adição, atualização, leitura e remoção sem regras adicionais.
+As principais características entre a ArrayList e LinkedList: 
+
 **Arraylist** deve ser usado onde mais operações de pesquisa são necessárias, garante ordem de inserção, permite ordenação através dos comparators;
 
 **LinkedList** deve ser usado onde mais operações de inserção e exclusão são necessárias. Garante ordem de inserção; Permite adição, leitura e remoção considerando a regra básica de uma fila: primeiro que entra, primeiro que sai; Não permite uma mudança de ordenação.

@@ -1,13 +1,13 @@
 ### Estutura de Dados em Java e Stream
 Principais classes utilitárias de Collections e Map. Utilizando os principais métodos de cada um.
 
-####Pré-Requisitos
+#### Pré-Requisitos
 [x] Java JDK 17;
 [x] Java JDK 17;
 [x] Java JDK 17;
 
-####Conteúdo
-#####Collections
+#### Conteúdo
+##### Collections
 Uma Collection basicamente é um objeto que agrupa múltiplos elementos, sejam variáveis primitivas ou objetos dentro de uma única unidade. Pode ser compostas por:
 * Interfaces: consiste em um contrato que quando assumido por uma classe deve ser implementado;
 * Implementação ou Classes: são as materializações, a codificação das interfaces;
@@ -16,7 +16,7 @@ Abaixo como as Collections estão organizadas:
 ![](http://www.startertutorials.com/corejava/wp-content/uploads/2018/02/collections-hierarchy.png)
 Percebe-se que o Map não faz parte do framework de Collections mas é bastante utilizado em tratamento e estrutura de dados.
 
-#####Listas
+##### Listas
 As listas permitem elementos duplicados e garante ordem de inserção. Também permite adicção, atualização, leitura e remoção sem regras adicionais.
 Diferença entre a ArrayList e LinkedList: 
 **Arraylist** deve ser usado onde mais operações de pesquisa são necessárias, garante ordem de inserção, permite ordenação através dos comparators;

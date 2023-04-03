@@ -2,9 +2,9 @@
 Principais classes utilitárias de Collections e Map. Utilizando os principais métodos de cada um.
 
 ### Pré-Requisitos
-[x] Java JDK 17;
-[x] Java JDK 17;
-[x] Java JDK 17;
+✔️ Java JDK 17;<br>
+✔️ IDE IntelliJ;<br>
+✔️ Básico e noção de Orientação a Objetos, ambos em Java;<br>
 
 ### Conteúdo
 #### Collections
@@ -13,7 +13,7 @@ Uma Collection basicamente é um objeto que agrupa múltiplos elementos, sejam v
 * Implementação ou Classes: são as materializações, a codificação das interfaces;
 * Algoritmos: é uma sequencia lógica, finita e definida de instruções que devem ser seguidas para resolver um problema;
 Abaixo como as Collections estão organizadas:
-![](http://www.startertutorials.com/corejava/wp-content/uploads/2018/02/collections-hierarchy.png)
+![](http://www.startertutorials.com/corejava/wp-content/uploads/2018/02/collections-hierarchy.png)<br>
 Percebe-se que o Map não faz parte do framework de Collections mas é bastante utilizado em tratamento e estrutura de dados.
 
 #### Listas

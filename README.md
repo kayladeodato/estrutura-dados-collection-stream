@@ -22,6 +22,7 @@ Uma Collection basicamente é um objeto que agrupa múltiplos elementos, sejam v
 * Algoritmos: é uma sequencia lógica, finita e definida de instruções que devem ser seguidas para resolver um problema;
 Abaixo como as Collections estão organizadas:
 ![](http://www.startertutorials.com/corejava/wp-content/uploads/2018/02/collections-hierarchy.png)<br>
+
 Percebe-se que o Map não faz parte do framework de Collections mas é bastante utilizado em tratamento e estrutura de dados.
 Outro ponto de atenção é não confundir a **interface Collection** com a **classe Collections**. A interface Collection comporta todas as coleções em Java, na qual aborda mais detalhados nos exemplos e conteúdo a seguir. Já a classe Collections é uma classe utilitária para realizar algumas operações em uma Collection. (Nos exemplos utilizei Collections.min e Collections.max ao pegar elementos de menor e maior valor, respectivamente).
 

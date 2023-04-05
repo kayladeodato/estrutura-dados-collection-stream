@@ -72,7 +72,7 @@ As principais classes da Interface Map são: HashMap, LinkedHashMap e TreeMap. E
 Exemplos práticos e uso dos principais métodos do <a href="https://github.com/kayladeodato/estrutura-dados-collection-stream/tree/main/src/br/com/projeto/dados/map"> Map </a>.
 
 ### 🔗 Links úteis
-Documentações: 
+Documentações:<br> 
 [Collection](http://https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html "Collection")<br>
 [List](http://https://docs.oracle.com/javase/8/docs/api/java/util/List.html "List")<br>
 [Set](http://https://docs.oracle.com/javase/8/docs/api/java/util/Set.html "Set")<br>

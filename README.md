@@ -73,10 +73,10 @@ Exemplos práticos e uso dos principais métodos do <a href="https://github.com/
 
 ### 🔗 Links úteis
 Documentações: 
-[Collection](http://https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html "Collection")
-[List](http://https://docs.oracle.com/javase/8/docs/api/java/util/List.html "List")
-[Set](http://https://docs.oracle.com/javase/8/docs/api/java/util/Set.html "Set")
-[Map](http://https://docs.oracle.com/javase/8/docs/api/java/util/Map.html "Map")
+[Collection](http://https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html "Collection")<br>
+[List](http://https://docs.oracle.com/javase/8/docs/api/java/util/List.html "List")<br>
+[Set](http://https://docs.oracle.com/javase/8/docs/api/java/util/Set.html "Set")<br>
+[Map](http://https://docs.oracle.com/javase/8/docs/api/java/util/Map.html "Map")<br>
 
 ### ❗ Observações
 Este curso que realizei foi ministrado pela [Camila Cavalcante](http://https://github.com/cami-la "Camila Cavalcante") disponibilizado pela Digital Inovation One, aproveito para deixar o [repositório original](http://https://github.com/cami-la/curso-dio-intro-collections "repositório original") do conteúdo do curso.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84e3f086-62fe-450a-9f9f-5f3138b9366c" name="Changes" comment="adicionando set">
+    <list default="true" id="84e3f086-62fe-450a-9f9f-5f3138b9366c" name="Changes" comment="adicionando stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kayli/Downloads/my-first-web-api"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kayli/Downloads/my-first-web-api&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.projeto.dados.set.sorteio" />
@@ -44,26 +44,13 @@
       <recent name="br.com.projeto.dados" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExemploCardapio">
+  <component name="RunManager" selected="Application.ExemploPontuacao">
     <configuration name="ExemploCardapio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.projeto.dados.map.ExemploCardapio" />
       <module name="estrutura-dados-collections-stream" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.projeto.dados.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExemploCarrinhoCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.projeto.dados.list.carrinho.ExemploCarrinhoCompras" />
-      <module name="estrutura-dados-collections-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.projeto.dados.list.carrinho.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploSorteio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.projeto.dados.set.sorteio.ExemploSorteio" />
+    <configuration name="ExemploPontuacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projeto.dados.stream.ExemploPontuacao" />
       <module name="estrutura-dados-collections-stream" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.projeto.dados.set.sorteio.*" />
+          <option name="PATTERN" value="br.com.projeto.dados.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemploSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.projeto.dados.stream.ExemploSeries" />
+      <module name="estrutura-dados-collections-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.projeto.dados.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExemploPontuacao" />
+        <item itemvalue="Application.ExemploSeries" />
         <item itemvalue="Application.ExemploCardapio" />
         <item itemvalue="Application.br.com.projeto.dados.set.sorteio.ExemploSimples" />
-        <item itemvalue="Application.br.com.projeto.dados.set.ganhadores.ExemploSorteio" />
         <item itemvalue="Application.ExemploMusica" />
-        <item itemvalue="Application.ExemploCarrinhoCompras" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680617961502</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adicionando map">
+      <created>1680700513530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680700513530</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adicionando stream">
+      <created>1680812168904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680812168904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +188,8 @@
     <MESSAGE value="adicionado list" />
     <MESSAGE value="adicionado set" />
     <MESSAGE value="adicionando set" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando set" />
+    <MESSAGE value="adicionando map" />
+    <MESSAGE value="adicionando stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando stream" />
   </component>
 </project>

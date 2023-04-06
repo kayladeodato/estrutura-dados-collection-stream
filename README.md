@@ -71,12 +71,35 @@ As principais classes da Interface Map são: HashMap, LinkedHashMap e TreeMap. E
 
 Exemplos práticos e uso dos principais métodos do <a href="https://github.com/kayladeodato/estrutura-dados-collection-stream/tree/main/src/br/com/projeto/dados/map"> Map </a>.
 
+#### Stream
+Antes de falarmos de Stream vamos ver alguns conceitos que deixarão o entendimento de stream mais "amigável".
+
+**Classe Anônima** é uma classe que não recebeu um nome e é tanto delcarado e instanciado em uma única instrução, ou seja, pode-se ser usada em casos que você precisa criar uma classe que será instanciado apenas uma vez.
+
+**Funcional Interface** refere-se a qualquer interface com um SAM (Single Abstract Method). Sua implementação pode ser tratada como expressões Lambda. Alguns exemplos de interfaces funcionais: Comparator, Consumer, Funcion, Predicate.
+
+**Lamba** é uma simplificação de uma classe anônima. É uma função sem declaração, sem a necessidade de colocar um nome, um tipo de retorno e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar em que será usado. 
+A sua sintaxe é: (argumento) -> (corpo)
+
+**Reference Method** serve para simplicar uma expressão Lamba. Permite fazer referência a um método ou construtor de uma classe (de forma funcional) e assim indicar que ele deve ser utilizado num ponto específico do código, deixando mais simples e legível. É representado por "::".
+
+Por fim, vem a definição de **Stream API**.
+A proposta de Streams API é reduzir a preocupação do desenvolvedor de implementar controle de fluxo ao lidar com coleções, deixando isso a cargo da API.
+A ideia é iterar sobre essas coleções e a cada objeto, e a cada elemento, realizar uma ação, seja ela de filtragem e mapeamento, transformação, etc.
+Tem característica imutável, pois não altera a coleção origem, sempre cria uma nova coleção.
+Sua estrutura consiste em: Source (fonte) -> Pipeline (operação intermediária) -> Terminal (operação final).
+As operações intermediárias retornam uma stream. As operações terminais retornam um valor ou um objeto.
+
+Exemplos práticos e uso dos principais métodos de <a href="https://github.com/kayladeodato/estrutura-dados-collection-stream/tree/main/src/br/com/projeto/dados/stream"> Stream </a>.
+
 ### 🔗 Links úteis
-Documentações:<br> 
-[Collection](http://https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html "Collection")<br>
-[List](http://https://docs.oracle.com/javase/8/docs/api/java/util/List.html "List")<br>
-[Set](http://https://docs.oracle.com/javase/8/docs/api/java/util/Set.html "Set")<br>
-[Map](http://https://docs.oracle.com/javase/8/docs/api/java/util/Map.html "Map")<br>
+Documentações: 
+[Collection](http://https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html "Collection")
+[List](http://https://docs.oracle.com/javase/8/docs/api/java/util/List.html "List")
+[Set](http://https://docs.oracle.com/javase/8/docs/api/java/util/Set.html "Set")
+[Map](http://https://docs.oracle.com/javase/8/docs/api/java/util/Map.html "Map")
+Artigo da Oracle sobre [Stream API](http://https://www.oracle.com/br/technical-resources/articles/java-stream-api.html "Stream API")
+[Intefaces Funcionais](http://https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html "Intefaces Funcionais")
 
 ### ❗ Observações
 Este curso que realizei foi ministrado pela [Camila Cavalcante](http://https://github.com/cami-la "Camila Cavalcante") disponibilizado pela Digital Inovation One, aproveito para deixar o [repositório original](http://https://github.com/cami-la/curso-dio-intro-collections "repositório original") do conteúdo do curso.

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84e3f086-62fe-450a-9f9f-5f3138b9366c" name="Changes" comment="adicionando stream">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="84e3f086-62fe-450a-9f9f-5f3138b9366c" name="Changes" comment="adicionando mais exeplo stream">
+      <change beforePath="$PROJECT_DIR$/src/br/com/projeto/dados/stream/ExemploPontuacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/projeto/dados/stream/ExemploPontuacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680812168904</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adicionando mais exeplo stream">
+      <created>1680813665179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680813665179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="adicionando set" />
     <MESSAGE value="adicionando map" />
     <MESSAGE value="adicionando stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando stream" />
+    <MESSAGE value="adicionando mais exeplo stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando mais exeplo stream" />
   </component>
 </project>

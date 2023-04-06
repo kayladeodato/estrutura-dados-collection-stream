@@ -17,12 +17,18 @@ public class ExemploPontuacao {
         List<Jogador> jogadores = Arrays.asList(jogador1, jogador2, jogador3, jogador4);
 
         Predicate<Jogador> maiorScore = a -> a.getPontuacao() > 1000;
+        Function<Jogador, String> apenasNome = a -> a.getNome();
         Function<Jogador, String> mensagem = a -> "Parabéns, " + a.getNome() +
             "! Você está com a maior pontuação! " + "Pontos: " + a.getPontuacao();
 
         jogadores.stream()
                 .filter(maiorScore)
                 .map(mensagem)
+                .forEach(System.out::println);
+
+        System.out.println("\nMostrando apenas os nomes: ");
+        jogadores.stream()
+                .map(apenasNome)
                 .forEach(System.out::println);
 
     }

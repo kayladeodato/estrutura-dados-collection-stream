@@ -9,10 +9,10 @@ A seguir veremos as principais classes utilitárias de Collections e Map e sua a
 ### 📝 Conteúdo
 #### Introdução
 Estrutura de dados é uma estrutura que armazena e organiza dados/informações de modo que os dados possam ser acessados e manipulados de forma eficiente. 
-São utilizados nessa manipulação listas, pilhas, filas e árvores.
-As **listas** também chamadas como vetores ou arrays é a estrutura de dados mais simples que existe. Armazena uma sequência de valores onde todos são do mesmo tipo. Pode-se criar uma lista sem precisar especificar o tipo, nesse caso usa-se [Generics](http://https://www.devmedia.com.br/java-generics-trabalhando-com-metodos/30911 "Generics").
-As **pilhas** também conhecidas como Stacks e Queues tem o comportamento de último a entrar primeiro a sair ou primeiro a entrar último a sair. A classe Stack do Java não é estática, e ela está ligada a outra classe que é LinkedList. Por isso não precisa de uma capacidade.
-As **filas** tem o comportamento primeiro a entrar, primeiro a sair. A interface de fila é a Queue no Java e para implementar uma que possui características da fila é o LinkedList.
+São utilizados nessa manipulação listas, pilhas, filas e árvores.<br>
+As **listas** também chamadas como vetores ou arrays é a estrutura de dados mais simples que existe. Armazena uma sequência de valores onde todos são do mesmo tipo. Pode-se criar uma lista sem precisar especificar o tipo, nesse caso usa-se [Generics](http://https://www.devmedia.com.br/java-generics-trabalhando-com-metodos/30911 "Generics").<br>
+As **pilhas** também conhecidas como Stacks e Queues tem o comportamento de último a entrar primeiro a sair ou primeiro a entrar último a sair. A classe Stack do Java não é estática, e ela está ligada a outra classe que é LinkedList. Por isso não precisa de uma capacidade.<br>
+As **filas** tem o comportamento primeiro a entrar, primeiro a sair. A interface de fila é a Queue no Java e para implementar uma que possui características da fila é o LinkedList.<br>
 As **árvores** é uma estrutura de dados bidimensional e não são lineares. É constituída de nós que representam um modelo hierárquico (armazenam os dados com base em relações e dependências).
 
 #### Collections

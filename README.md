@@ -102,7 +102,7 @@ Artigo da Oracle sobre [Stream API](http://https://www.oracle.com/br/technical-r
 [Intefaces Funcionais](http://https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html "Intefaces Funcionais")<br>
 
 ### ❗ Observações
-Este curso que realizei foi ministrado pela [Camila Cavalcante](http://https://github.com/cami-la "Camila Cavalcante") disponibilizado pela Digital Inovation One, aproveito para deixar o [repositório original](http://https://github.com/cami-la/curso-dio-intro-collections "repositório original") do conteúdo do curso.
+Este curso que realizei foi ministrado pela [Camila Cavalcante](http://https://github.com/cami-la "Camila Cavalcante") disponibilizado pela Digital Innovation One, aproveito para deixar o [repositório original](http://https://github.com/cami-la/curso-dio-intro-collections "repositório original") do conteúdo do curso.
 
 ### 🤝 Contribuindo
 Esse repositório foi criado para reforçar os estudos em estrutura de dados e para possíveis revisões, e espero que possa ajudá-los de alguma forma. Se quiser contribuir e compartilhar, pode ficar a vontade! 

@@ -19,7 +19,7 @@ As **árvores** é uma estrutura de dados bidimensional e não são lineares. É
 Uma Collection basicamente é um objeto que agrupa múltiplos elementos, sejam variáveis primitivas ou objetos dentro de uma única unidade. Pode ser compostas por:
 * Interfaces: consiste em um contrato que quando assumido por uma classe deve ser implementado;
 * Implementação ou Classes: são as materializações, a codificação das interfaces;
-* Algoritmos: é uma sequencia lógica, finita e definida de instruções que devem ser seguidas para resolver um problema;
+* Algoritmos: é uma sequencia lógica, finita e definida de instruções que devem ser seguidas para resolver um problema;<br>
 Abaixo como as Collections estão organizadas:
 ![](http://www.startertutorials.com/corejava/wp-content/uploads/2018/02/collections-hierarchy.png)<br>
 
